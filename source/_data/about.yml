@@ -1,0 +1,102 @@
+- class_name: 关于页
+  subtitle: 行而不辍，未来可期✨
+  avatarImg: https://avatars.githubusercontent.com/u/113026578?v=4
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🖥️ JavaScript爱好者
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 间歇性发奋图强🧟
+  name: wzc
+  description: 是一名 前端工程师、学生、独立开发者、博主
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+    img: https://cdn.cbd.int/anzhiyu-assets@1.0.11/image/common/github-info/personal-homepage-banner.jpg
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: EDU,软件工程专业
+        color: "#357ef5"
+    img: https://tradetm.zbjimg.com/tm/ef/5b/26/58907450.jpg
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，太原市
+    background: https://blog-1301952160.cos.ap-shanghai.myqcloud.com/Apprehensive/about/INTJ.jpg
+    backgroundDark: https://blog-1301952160.cos.ap-shanghai.myqcloud.com/Apprehensive/about/INTJ.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2002
+    selfInfoTips2: 太原科技大学
+    selfInfoContent2: 软件工程
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 大三学生👨‍🎓
+  personalities:
+    author_name: 企业家
+    personality_type: ESFJ-A
+    photo_url: https://ts1.cn.mm.bing.net/th/id/R-C.b6eb49b2162b75d623ee702c3f015428?rik=4MeDkhoFbjwQXA&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20210908ac%2f623%2fw1402h821%2f20210908%2fc638-e605e1da3f9318318813374b8c7078bd.jpg&ehk=XAV9VPjTtm5r%2b856FxFFpSM3IVYkSaFv81etgCwi1aw%3d&risl=&pid=ImgRaw&r=0
+    personality_img: https://iqeq.com.cn/imgxin/mbtim/qyj.png
+    name_url: https://www.16personalities.com/estp-personality
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 行而不辍，
+    maxim_bottom: 未来可期。
+  buff:
+    buff_tips: 特长
+    buff_top: 脑回路新奇的 白日梦想家
+    buff_bottom: 二次元指数 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title:
+    game_uid:
+    game_bg: https://img-baofun.zhhainiao.com/pcwallpaper_ugc/live/4fed39ff75ae7f335c3a1a926f59ac17.mp4.jpg
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: Re：从零开始的异世界生活
+        href: https://www.bilibili.com/bangumi/media/md28224394
+        cover: https://pic3.zhimg.com/v2-cbf81528639bc668c05904db2b246d4a_1200x500.jpg
+      - name: 咒术回战
+        href: https://www.bilibili.com/bangumi/media/md28229899
+        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
+      - name: 怪兽8号
+        href: https://www.bilibili.com/bangumi/media/md21231256
+        cover: https://www.dxsc18.cn/wp-content/uploads/2022/04/1650338340-c4ca4238a0b9238-e1650338366238.jpg
+      - name: 我独自升级
+        href: https://www.bilibili.com/bangumi/media/md21194555
+        cover: https://www.bnacg.com/uploads/2310/1-231011215259332.jpg
+      - name: 约定的梦幻岛
+        href: https://www.bilibili.com/bangumi/media/md28339645
+        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
+
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 许嵩、民谣、华语流行
+    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_link: /music

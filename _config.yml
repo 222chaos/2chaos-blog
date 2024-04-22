@@ -4,16 +4,16 @@
 
 # Site
 title: 2Chaos
-subtitle: "时间不在于你拥有多少，而在于你怎样使用"
-description: "it is just a teeeeeeeeeeeeeeeeeeest"
-keywords: dddddddddddffffffffffjkl
-author: 9527
+subtitle: "Viva La Vida"
+description: "it is a description"
+keywords:
+author: 2Chaos
 language: zh-CN
 timezone: ""
 email: 1585767724@qq.com
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://blog.2chaos.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,3 +102,38 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+#####################
+#####################
+#####################
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  path:
+  vmid: 503521153
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: "代理host"
+    port: "代理端口"
+  extra_options:
+    top_img: false
+    lazyload:
+      enable: false
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false

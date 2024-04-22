@@ -1,0 +1,55 @@
+- class_name: 世界各地夕阳与风景
+  path_name: /wordScenery
+  type: 2
+  description: 鉴赏一下收集来的世界各地夕阳与风景🌇。
+  cover: https://bu.dusays.com/2023/04/09/64329399d1175.jpg
+  top_background: https://bu.dusays.com/2023/06/30/649e546ada7dd.webp
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2022/10/26 01:00:00
+      content: 湘潭的一角。
+      address: 湖南湘潭
+      from: 再吃一口就减肥
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db122.webp
+    - date: 2022-10-25
+      content: 洛阳暴雨后的天空。
+      address: 河南洛阳
+      from: 紫菜卷
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db122.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202002%2F17%2F20200217213901_YaTMe.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1716391916&t=24d06164a0b1811b211002ab3aca3893
+  cover: https://pic1.zhimg.com/v2-065246b32109219691cbe328ed966280_r.jpg?source=1940ef5c
+  album_list:
+    - date: 2022-10-24
+      content:
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+
+- class_name: 手机电脑壁纸
+  path_name: /wallPaper
+  type: 1
+  description: 这里存放的是一些值得收藏的好看的电脑或手机壁纸。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://img-baofun.zhhainiao.com/fs/80b308803634455c40805de90c65e817.jpg
+  cover: https://ts1.cn.mm.bing.net/th/id/R-C.e625f973be0201abe85aca7c212d6f2b?rik=VW4NFZCN9IWYEg&riu=http%3a%2f%2fpic.bizhi360.com%2fbpic%2f91%2f9791_4.jpg&ehk=HizgPzZ00F9Sw29%2bpGfeWJZ1NM8agVaXnEeUFfSkbOs%3d&risl=&pid=ImgRaw&r=0
+  album_list:
+    - date: 2022-10-24
+      content:
+      image:
+        -
