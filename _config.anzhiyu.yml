@@ -1033,7 +1033,7 @@ home_top:
   timemode: date #date/updated
   title: 行而不辍
   subTitle: 未来可期
-  siteText:
+  siteText: nihao
   category:
     - name: 前端
       path: /categories/前端开发/
@@ -1055,11 +1055,6 @@ home_top:
     enable: false
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
-  banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
 
 # 朋友圈配置
 friends_vue:
@@ -1161,7 +1156,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
