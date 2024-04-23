@@ -1055,6 +1055,11 @@ home_top:
     enable: false
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+  banner:
+    tips: 下次一定
+    title: 一个宝藏级的资源收集网站
+    image: https://ice.frostsky.com/2024/04/23/9ef50deb3903608a98d6ea6c81d23ca4.jpeg
+    link: https://www.iiice.cn/#/
 
 # 朋友圈配置
 friends_vue:
@@ -1239,27 +1244,27 @@ CDN:
   custom_format: # https://npm.elemecdn.com/${name}@latest/${file}
 
   #envelope_comment
-  #seehttps://akilar.top/posts/e2d3c450/
-  envelope_comment:
-    enable: true #控制开关
-    custom_pic:
-      cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
-      line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
-      beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
-      afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
-    message: #信笺正文，多行文本，写法如下
-      - 有什么想问的？
-      - 有什么想说的？
-      - 有什么想吐槽的？
-      - 哪怕是有什么想吃的，都可以告诉我哦~
-    bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
-    height: #1024px，信封划出的高度
-    path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
-      front_matter: #【可选】comments页面的 front_matter 配置
-      title: 留言板
-      comments: true
-      top_img: false
-      type: envelope
+#seehttps://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
 
   option:
     # main_css:

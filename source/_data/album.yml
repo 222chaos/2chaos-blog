@@ -104,7 +104,7 @@
       content: "驾照到手，天下我有"
       image:
         - https://th.bing.com/th/id/OIP.FNl8AELPutIYzmGD622H_gHaFQ?rs=1&pid=ImgDetMain
-- class_name: 手机电脑壁纸
+- class_name: 电脑壁纸
   path_name: /wallPaper
   type: 2
   description: 这里存放的是一些好看的壁纸
@@ -141,19 +141,47 @@
     - date: 2024-04-23
       content:
       image:
+        - https://ice.frostsky.com/2024/04/23/26a0625617a537424bfc8804b5a6ca00.jpeg
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/7fd142c77059e35e187be6f644571a82.jpeg
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/fb03db6526c46f41e270b6ef45afea72.jpeg
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/4b6f5c184855122c58f4a17b2065cf50.png
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/03b7121cb5cb4c9214f356272916d072.jpeg
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/33bae90c8c37e48af1c8a25f26080d09.jpeg
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/8a0cd1910dd9d582d62c45d2716c46b2.jpeg
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/bfd621c3a6a77907434f5e8bda9d879c.png
+    - date: 2024-04-23
+      content:
+      image:
+        - https://ice.frostsky.com/2024/04/23/876e5a5c6a94a8d871a80f5a34eb742b.jpeg
+    - date: 2024-04-23
+      content:
+      image:
         - https://pic2.zhimg.com/v2-6e1f2212d35a06cad73caebc9b9af0e4_r.jpg?source=1940ef5c
     # - date: 2024-04-23
     #  content:
     # image:
     #  -
-    - date: 2024-04-23
-      content:
-      image:
-        - http://img.netbian.com/file/2024/0411/small002150adqVM1712766110.jpg
-    - date: 2024-04-23
-      content:
-      image:
-        - http://img.netbian.com/file/2024/0314/small001750jfsob1710346670.jpg
     - date: 2024-04-23
       content:
       image:
@@ -169,7 +197,7 @@
   url: false
   top_link: /album
   top_btn_text: 返回
-  top_background: https://c-ssl.duitang.com/uploads/blog/202105/17/20210517103439_52d3d.jpg
+  top_background: https://ice.frostsky.com/2024/04/23/b8fda6c972a3fad7c972e3ae8d750a22.jpeg
   cover: https://ice.frostsky.com/2024/04/23/ba90d976497714aca6ee5135b55f6246.jpeg
   album_list:
     - date: 2024-04-23
@@ -189,4 +217,4 @@
     - date: 2024-04-23
       content:
       image:
-        - https://ice.frostsky.com/2024/04/23/9a83a60305f619564a0502b17fe0a3cd.png
+        - https://ice.frostsky.com/2024/04/23/28742fbcd70091e644ab6def20da8231.jpeg
