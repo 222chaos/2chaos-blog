@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>规范的 git commit</title>
+      <link href="/2024/05/20/git%E4%B9%8B%E8%8E%B7%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%EF%BC%88fetch5%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%89/"/>
+      <url>/2024/05/20/git%E4%B9%8B%E8%8E%B7%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%EF%BC%88fetch5%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git-分支切换方法"><a href="#Git-分支切换方法" class="headerlink" title="Git 分支切换方法"></a>Git 分支切换方法</h1><h2 id="方法一：git-checkout-targetbranch"><a href="#方法一：git-checkout-targetbranch" class="headerlink" title="方法一：git checkout targetbranch"></a>方法一：<code>git checkout targetbranch</code></h2><ol><li>首先，获取远程所有分支<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch</span><br></pre></td></tr></table></figure></li><li>查看所有远程分支，找到需要的远程分支，例如 <code>origin/targetbranch</code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -r</span><br></pre></td></tr></table></figure></li><li>在本地新建一个同名分支，然后系统会自动与该远程分支关联<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout targetbranch</span><br></pre></td></tr></table></figure><blockquote><p>注意：<code>git checkout origin/mybranch</code> 会进入 detached head 状态，不会在本地新建分支，不要这样写。</p></blockquote></li></ol><h2 id="方法二：git-checkout-b-本地分支名-origin-远程分支名"><a href="#方法二：git-checkout-b-本地分支名-origin-远程分支名" class="headerlink" title="方法二：git checkout -b 本地分支名 origin/远程分支名"></a>方法二：<code>git checkout -b 本地分支名 origin/远程分支名</code></h2><ol><li>首先，获取远程所有分支<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch</span><br></pre></td></tr></table></figure></li><li>创建与远程分支关联的本地分支（可以同名，也可以不同名；建议同名，方便管理）<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b 本地分支名 origin/远程分支名</span><br></pre></td></tr></table></figure></li></ol><h2 id="方法三：git-checkout-track-origin-远程分支名"><a href="#方法三：git-checkout-track-origin-远程分支名" class="headerlink" title="方法三：git checkout --track origin/远程分支名"></a>方法三：<code>git checkout --track origin/远程分支名</code></h2><ol><li>首先，获取远程所有分支<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch</span><br></pre></td></tr></table></figure></li><li>创建与远程分支关联的本地分支<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout --track origin/远程分支名</span><br></pre></td></tr></table></figure></li></ol><h2 id="方法四：git-checkout-t-origin-远程分支名"><a href="#方法四：git-checkout-t-origin-远程分支名" class="headerlink" title="方法四：git checkout -t origin/远程分支名"></a>方法四：<code>git checkout -t origin/远程分支名</code></h2><ol><li>首先，获取远程所有分支<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch</span><br></pre></td></tr></table></figure></li><li>创建与远程分支关联的本地分支<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -t origin/远程分支名</span><br></pre></td></tr></table></figure></li></ol><h2 id="方法五：fetch-指定的一个分支：git-fetch-repo-remote-branch-name-local-branch-name"><a href="#方法五：fetch-指定的一个分支：git-fetch-repo-remote-branch-name-local-branch-name" class="headerlink" title="方法五：fetch 指定的一个分支：git fetch [repo] [remote_branch_name]:[local_branch_name]"></a>方法五：fetch 指定的一个分支：<code>git fetch [repo] [remote_branch_name]:[local_branch_name]</code></h2><ol><li><p>获取远程指定分支，并创建与之关联的本地分支</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch [repo] [remote_branch_name]:[local_branch_name]</span><br></pre></td></tr></table></figure><blockquote><p>举例：<code>git fetch origin TargetBranch:tempBranch</code> 从远程仓 origin 的 TargetBranch 分支下载到本地，并新建一个 tempBranch 分支。</p><p><code>[remote_branch_name]:[local_branch_name]</code> 可同名，也可不同名；建议同名，便于管理。</p></blockquote></li><li><p>切换当前分支为本地建立的分支</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout [local_branch_name]</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大学</title>
       <link href="/2024/05/08/%E5%A4%A7%E5%AD%A6/"/>
       <url>/2024/05/08/%E5%A4%A7%E5%AD%A6/</url>
@@ -117,7 +142,7 @@
     
     
     <entry>
-      <title>import后面加入{}和不加大括号有什么区别</title>
+      <title>import后面加上{}和不加{}有什么区别</title>
       <link href="/2024/04/23/import%E5%90%8E%E9%9D%A2%E5%8A%A0%E5%85%A5-%E5%92%8C%E4%B8%8D%E5%8A%A0%E5%A4%A7%E6%8B%AC%E5%8F%B7%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/"/>
       <url>/2024/04/23/import%E5%90%8E%E9%9D%A2%E5%8A%A0%E5%85%A5-%E5%92%8C%E4%B8%8D%E5%8A%A0%E5%A4%A7%E6%8B%AC%E5%8F%B7%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</url>
       
